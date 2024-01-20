@@ -1,0 +1,100 @@
+body {
+  background: url('https://img.freepik.com/free-vector/hand-painted-abstract-blue-wallpaper-watercolor_23-2149106506.jpg') no-repeat center center fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color:rgb(35, 35, 35);
+  
+  
+}
+
+
+.App {
+  text-align: center;
+  margin: 50px;
+  font: size 100px;
+  
+}
+
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+.app{
+  text-align: center;
+  margin: 50px;
+  font: size 100px;
+  
+}
+.NEnter {
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.solutions {
+  margin-top: 20px;
+  font-size: 25px;
+  
+}
+.gif img {
+  max-width: 200px; 
+  max-height: 200px; 
+  animation: bounce-out 4s ease infinite;
+}
+
+
+@keyframes bounce-out {
+  0% { transform: scale(1); }
+  25% { transform: scale(.95); }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(.3);
+  } 
+}
+.solution {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30px;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #0b0b0b;
+}
+
+
+.matrix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+
+.matrix-row {
+  display: flex;
+}
+
+.matrix-cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0b0b0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+}
